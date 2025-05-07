@@ -45,8 +45,7 @@ class CategoryHomeCard extends StatelessWidget {
                         Stack(alignment: Alignment.bottomCenter, children: [
                           UiUtils.imageType(
                               height: 130, url, fit: BoxFit.cover),
-                          Expanded(
-                              child: Padding(
+                           Padding(
                                   padding: EdgeInsets.all(3),
                                   child: CustomText(
                                     title,
@@ -55,7 +54,7 @@ class CategoryHomeCard extends StatelessWidget {
                                     fontSize: 8,
                                     fontWeight: FontWeight.w900,
                                     color: Colors.white,
-                                  )))
+                                  ))
                         ])
                       ]),
                     ),
